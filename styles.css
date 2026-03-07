@@ -1,13 +1,17 @@
+/* Medieval Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Uncial+Antiqua&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #111;
-    color: white;
+    background-color: #1b1a17;
+    background-image: url("https://www.transparenttextures.com/patterns/aged-paper.png");
+    color: #f4e6c1;
+    font-family: 'Cinzel', serif;
 }
 
 /* Navbar */
@@ -15,108 +19,156 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f1f1f;
-    padding: 15px 40px;
-    position: sticky;
-    top: 0;
+    background: linear-gradient(to right, #3b2f2f, #2a1f1f);
+    padding: 18px 40px;
+    border-bottom: 4px solid gold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
 }
 
 .logo {
-    font-size: 22px;
-    font-weight: bold;
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 26px;
     color: gold;
+    letter-spacing: 2px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 28px;
 }
 
 .nav-links a {
-    color: white;
+    color: #f4e6c1;
     text-decoration: none;
     font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 6px 10px;
+    border-radius: 4px;
 }
 
 .nav-links a:hover {
+    background-color: rgba(255,215,0,0.15);
     color: gold;
 }
 
 /* Hero Banner */
 .hero {
-    height: 60vh;
-    background: url('images/hero-banner.jpg') center/cover no-repeat;
+    height: 65vh;
+    background: 
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('images/hero-banner.jpg') center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-bottom: 5px solid gold;
 }
 
 .hero h1 {
-    font-size: 48px;
-    background-color: rgba(0,0,0,0.6);
-    padding: 20px;
-    border-radius: 10px;
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 54px;
+    color: gold;
+    text-shadow: 0 0 10px rgba(255,215,0,0.6);
+    letter-spacing: 3px;
 }
 
 /* Intro */
 .intro {
-    padding: 60px 20%;
+    padding: 70px 18%;
     text-align: center;
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 1.8;
+    background-color: rgba(40,30,20,0.85);
+    border-top: 3px solid gold;
+    border-bottom: 3px solid gold;
+}
+
+.intro p::first-letter {
+    font-size: 42px;
+    font-family: 'Uncial Antiqua', cursive;
+    color: gold;
 }
 
 /* Carousel */
 .carousel-section {
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
+    margin: 70px 0;
 }
 
 .carousel {
     position: relative;
     width: 60%;
-    max-width: 700px;
+    max-width: 750px;
     overflow: hidden;
+    border: 6px solid #3b2f2f;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    background-color: #2a1f1f;
+    padding: 10px;
 }
 
 .carousel-images img {
     width: 100%;
     display: none;
-    border-radius: 10px;
+    border-radius: 8px;
+    border: 3px solid gold;
 }
 
 .carousel-images img.active {
     display: block;
 }
 
+/* Carousel Buttons */
 .prev, .next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.6);
-    color: white;
-    border: none;
-    padding: 12px;
+    background-color: rgba(50,40,30,0.85);
+    color: gold;
+    border: 2px solid gold;
+    padding: 12px 16px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 50%;
+    transition: 0.3s;
 }
 
-.prev { left: 10px; }
-.next { right: 10px; }
+.prev:hover, .next:hover {
+    background-color: gold;
+    color: black;
+}
+
+.prev { left: 12px; }
+.next { right: 12px; }
 
 /* Footer */
 .footer {
-    background-color: #1f1f1f;
-    padding: 40px;
+    background: linear-gradient(to right, #2a1f1f, #3b2f2f);
+    padding: 50px;
     text-align: center;
-    line-height: 1.8;
+    line-height: 2;
+    border-top: 4px solid gold;
 }
 
 .footer h3 {
+    font-family: 'Uncial Antiqua', cursive;
     color: gold;
-    margin-bottom: 15px;
+    font-size: 26px;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+/* Decorative Medieval Dividers */
+.section-divider {
+    height: 4px;
+    background: linear-gradient(to right, transparent, gold, transparent);
+    margin: 60px auto;
+    width: 70%;
 }
