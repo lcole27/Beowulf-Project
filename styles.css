@@ -14,15 +14,6 @@ body {
     font-family: 'Cinzel', serif;
     cursor: url('https://cur.cursors-4u.net/symbols/sym-1/sym46.cur'), auto;
 }
-@keyframes flicker {
-    0% { text-shadow: 0 0 5px gold; }
-    50% { text-shadow: 0 0 20px orange; }
-    100% { text-shadow: 0 0 5px gold; }
-}
-
-.hero h1 {
-    animation: flicker 2s infinite;
-}
 
 /* Navbar */
 .navbar {
@@ -76,13 +67,20 @@ body {
     border-bottom: 5px solid gold;
 }
 
+@keyframes flicker {
+    0% { text-shadow: 0 0 5px gold; }
+    50% { text-shadow: 0 0 20px orange; }
+    100% { text-shadow: 0 0 5px gold; }
+}
 .hero h1 {
     font-family: 'Uncial Antiqua', cursive;
     font-size: 54px;
     color: gold;
     text-shadow: 0 0 10px rgba(255,215,0,0.6);
     letter-spacing: 3px;
+    animation: flicker 2s infinite;
 }
+
 
 /* Intro */
 .intro {
