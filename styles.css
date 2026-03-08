@@ -180,3 +180,73 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+/* Fullscreen Carousel */
+.about-hero-carousel {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.hero-slide.active {
+    opacity: 1;
+}
+
+/* Story Layout */
+.story {
+    width: 75%;
+    margin: 100px auto;
+}
+
+.story-block {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 140px;
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s ease;
+}
+
+.story-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.story-block img {
+    width: 45%;
+    border-radius: 12px;
+    border: 4px solid gold;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.story-text {
+    width: 55%;
+}
+
+.story-text h2 {
+    font-family: 'Uncial Antiqua', cursive;
+    color: gold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.story-text p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Scroll Animation */
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
