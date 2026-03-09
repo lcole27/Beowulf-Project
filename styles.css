@@ -185,7 +185,6 @@ body {
 .about-hero-carousel {
     height: 100vh;
     position: relative;
-    overflow: hidden;
 }
 
 .hero-slide {
