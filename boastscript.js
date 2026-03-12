@@ -2,7 +2,7 @@ function generateBoast(){
 
 const boasts = [
 
-"I am Beowulf, son of Ecgtheow, the strongest of the Geats. In my youth I bound five giants, chased a tribe of monsters from the earth, and slew sea-beasts beneath the waves.",
+"\"They had seen me boltered in the blood of enemies when I battled and bound five beasts, raided a troll-nest and in the night-sea slaughtered sea-brutes. I have suffered extremes and avenged the Geats (their enemies brought it upon themselves, I devastated them). Now I mean to be a match for Grendel, settle the outcome in single combat\" (419-426).",
 
 "Breca boasted of swimming prowess, yet I swam longer and stronger. All night I fought the sea-beasts with naked sword and returned alive while their corpses drifted in the morning tide.",
 
