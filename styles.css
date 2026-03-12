@@ -356,3 +356,68 @@ body {
     background:gold;
     color:black;
 }
+
+/* Review Section */
+.review-section{
+    width:70%;
+    margin:60px auto;
+    text-align:center;
+}
+
+/* Button */
+.review-btn{
+    font-family:'Uncial Antiqua', cursive;
+    padding:15px 30px;
+    font-size:18px;
+    background:#3b2f2f;
+    color:gold;
+    border:3px solid gold;
+    cursor:pointer;
+    margin-bottom:40px;
+}
+
+.review-btn:hover{
+    background:gold;
+    color:black;
+}
+
+/* Review Card */
+.review-card{
+    display:flex;
+    align-items:flex-start;
+    background:white;
+    color:black;
+    border-radius:10px;
+    padding:20px;
+    margin:20px auto;
+    width:70%;
+    box-shadow:0 4px 12px rgba(0,0,0,0.4);
+    animation:popIn .5s ease;
+}
+
+/* Profile Pic */
+.review-card img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:20px;
+}
+
+/* Stars */
+.stars{
+    color:#f5b301;
+    font-size:18px;
+}
+
+/* Pop animation */
+@keyframes popIn{
+    from{
+        transform:scale(.7);
+        opacity:0;
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
