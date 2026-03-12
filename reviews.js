@@ -9,7 +9,7 @@ text:"Absolutely legendary service. Showed up without invitation and saved Denma
 
 {
 name:"Wiglaf",
-img:"images/wiglaf.jpg",
+img:"images/wiglaf.png",
 stars:"★★★★★",
 text:"10/10 Amazing king amazing warrior will totally stand behind him even if no one else does. If Beowulf dies, we will certainly be invaded by the Frisians and Swedes and God knows who else. We've simply made too many enemies to survive for long without Beowulf. Obviously this isn't a great situation, we're all just praying that Beo's immortal at this point. And also really hoping he doesn't try to kill this dragon by himself, because then he might die and then we all die. If you read these, please live. Our people are desperate, so please please please don't die."
 },
@@ -24,7 +24,7 @@ text:"Terrible experience. For totally legitimate reasons involving dynastic hon
 {
 name:"Dragon",
 img:"images/dragon.jpg",
-stars:"★☆☆☆☆",
+stars:"☆☆☆☆☆",
 text:"0/10. See, I've been minding my own business and guarding my treasure peacefully for centuries. Then some thief takes my stuff. The king catches the thief, and instead of just RETURNING MY GOLD, this dummie decides he's going to fight me. Ever heard of diplomacy? Extremely rude and excessively stupid. Will update once I kill."
 }
 
